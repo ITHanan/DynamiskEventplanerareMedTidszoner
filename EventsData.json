@@ -1,0 +1,28 @@
+﻿{
+  "events": [
+    {
+      "name": "Team Meeting",
+      "startTime": "2024-12-05 14:00",
+      "duration": {
+        "hours": 2,
+        "minutes": 30
+      },
+      "timeZone": "Eastern Standard Time"
+    }
+  ],
+  "timeZonesToShow": [
+    "Pacific Standard Time",
+    "Central European Standard Time",
+    "Pacific Standard Time"
+  ],
+  "conflictCheck": {
+    "event1": "Team Meeting",
+    "event2": "Project Review"
+  },
+  "recurringEvent": {
+    "name": "Weekly Standup",
+    "dayOfWeek": "Wednesday",
+    "time": "10:00",
+    "occurrences": 5
+  }
+}
